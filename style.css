@@ -7,36 +7,34 @@
     display: flex;
 }
 
-.box1{
-    margin: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: blue;
-    height: 70vmin;
-    width: 70vmin;
+body{
+    text-align: center;
 }
-.box2{
-    margin: 10px;
+
+.box{
+    margin: 100px;
+    margin-top: 100px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: green;
-     height: 70vmin;
-    width: 70vmin;
+    height: 50vmin;
+    width: 50vmin;
+    padding: 0 30px;
 }
-.box3{
-    margin: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: rebeccapurple;
-     height: 70vmin;
-    width: 70vmin;
+#box3{
+    background-color: rgb(130, 218, 130);
+}
+#box1{
+    background-color: rgb(246, 125, 125);
+}
+#box2{
+    background-color: rgb(101, 101, 163);
 }
 .reset{
     align-items: center;
     text-align: center;
     font-size: 15px;
     height: 50px;
-    width: 50px;
+    width: 80px;
     background-color: black;
     color: beige;
     border-radius: 10px;
