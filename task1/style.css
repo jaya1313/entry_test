@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.color_box{
+    display: flex;
+}
+
+body{
+    text-align: center;
+}
+.total{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.box{
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50vmin;
+    width: 50vmin;
+    padding: 0 30px;
+    cursor: pointer;
+    
+    
+}
+#box3{
+    background-color: rgb(130, 218, 130);
+}
+#box1{
+    background-color: rgb(246, 125, 125);
+}
+#box2{
+    background-color: rgb(101, 101, 163);
+}
+.reset{
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    height: 50px;
+    width: 80px;
+    background-color: black;
+    color: beige;
+    border-radius: 10px;
+}
+.click{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
