@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2{
+    margin: 30px;
+    color: rgb(246, 204, 142);
+    text-shadow: 0px 4px 5px blanchedalmond;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button{
+    border: 5px solid bisque;
+    border-radius: 15px;
+    margin-top: 50px;
+    background-color: bisque;
+    box-shadow: 0px 4px 5px grey;
+}
+.button:hover{
+    border: 2px solid black;
+    background-color: black;
+    color: bisque;
+}
+#button1{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+#button2{
+    height: 50px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+#button3{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    padding-left: 40px;
+    
+}
+.content{
+    
+     max-width: 500px;
+     max-height: 500px;  
+    margin-top: 15px;
+    padding-left: 20px;
+    text-align: justify;
+    
+}
+#bio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+   
+}
+#skill{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.show_hide{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+.show{
+    border: 5px solid rgb(63, 44, 22);
+    color: rgb(249, 235, 101);
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: rgb(63, 44, 22);
+    box-shadow: 0px 4px 5px grey;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.show:hover{
+    border: 2px solid black;
+    background-color: black;
+    color: bisque;
+}
+#show1{
+     height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    
+}
+#hide1{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.hide{
+   display: none; 
+}
+#section{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left:20px ;
+}
