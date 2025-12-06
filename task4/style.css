@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+}
+.to-do_list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.list1{
+    border: 2px solid white;
+    height: 60px;
+    width: 160px;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-size-adjust: inherit;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: brown;
+    box-shadow: 0px 4px 5px  brown;
+}
+#exercise{
+    margin-right: 30px;
+}
+/* .list1:hover{
+    box-shadow: 0px 4px 5px grey;
+    color: grey;
+    text-decoration: line-through;
+} */
+p{
+    font-size: 30px;
+    margin: 100px;
+}
+.buttons{
+    text-align: center;
+    gap: 20px;
+    padding: 20px 20px;
+    margin-right: 20px;
+}
+#mark{
+    height: 60px;
+    width: 160px;
+    border-radius: 15px;
+    border: white;
+    background-color: white;
+    font-size: 25px;
+    gap: 20px;
+    box-shadow: 0px 4px 5px yellow;
+    
+}
+#unmark{
+    height: 60px;
+    width: 160px;
+    border-radius: 15px;
+    border: white;
+    background-color: white;
+    font-size: 25px;
+    gap: 20px;
+    box-shadow: 0px 4px 5px yellow;
+    margin-left: 40px;
+}
+#mark:hover{
+    box-shadow: 0px 4px 5px rgb(73, 47, 6);
+    text-decoration:underline;
+}
+#unmark:hover{
+    box-shadow: 0px 4px 5px rgb(73, 47, 6);
+    text-decoration:underline;
+}
