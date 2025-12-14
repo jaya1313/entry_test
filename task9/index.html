@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Font Size Controller</h1>
+    <div class="container">
+        <div class="sample">
+            <p> This is the sample paragraph!</p>
+        </div>
+        <div class="btns">
+            <button class="sml">Smaller</button>
+            <button class="sml">Larger</button>
+            <button class="sml">Range Slider</button>
+        </div>
+        <p>Current Size:<span class="size"></span></p>
+        <button class="reset">RESET</button>
+    </div>
+ <script src="script.js"></script>   
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 9 - Font Size Controller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="box">
+        <h2>Font Size Controller</h2>
+
+        <p id="text">
+            This is a sample text. Change my font size using the controls below.
+        </p>
+
+        <div class="controls">
+            <button id="smaller">Smaller</button>
+            <button id="larger">Larger</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <input type="range" id="range" min="10" max="40" value="16">
+
+        <div class="presets">
+            <button data-size="12">Small (12px)</button>
+            <button data-size="16">Medium (16px)</button>
+            <button data-size="24">Large (24px)</button>
+        </div>
+
+        <div class="size-display" id="display">
+            Current size: 16px
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

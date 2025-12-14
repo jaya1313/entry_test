@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background: white;
+    padding: 25px;
+    width: 420px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 15px 0;
+}
+
+.controls button,
+.presets button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.size-display {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
